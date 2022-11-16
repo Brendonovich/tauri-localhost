@@ -1,7 +1,4 @@
-# Tauri + Solid + Typescript
+# Running a localhost server in a Tauri app
 
-This template should help get you started developing with Tauri, Solid and Typescript in Vite.
-
-## Recommended IDE Setup
-
-- [VS Code](https://code.visualstudio.com/) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
+A small example of spinning up a temporary Axum server for receiving data from a web browser.
+Also demonstrates how to open a link in a browser from JS via a Rust command.

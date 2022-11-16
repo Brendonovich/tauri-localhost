@@ -7,8 +7,6 @@ use axum::{routing::post, Json};
 use serde_json::Value;
 use tauri::{AppHandle, Manager};
 
-pub struct AppState {}
-
 #[tauri::command]
 fn open_in_browser(url: String) {
     webbrowser::open(&url).ok();
